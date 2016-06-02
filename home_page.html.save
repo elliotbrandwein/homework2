@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 	<head>
 		<title></title>
@@ -17,7 +18,7 @@
             </div>
         </div>
         <div id="fund-message">
-        	<h2> Here Are Some Examples of Great Causes to Support:</h2>
+        	<h2> Here are some examples of great causes to support:</h2>
         </div>
         <div id ="pic-container">
         	<div id ="left-pic">
