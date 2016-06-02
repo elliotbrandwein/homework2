@@ -1,0 +1,18 @@
+#orginal_header{
+	text-align:  center;
+	width: 95%;
+	float: left;
+}
+#home{
+	clear: right;
+}
+#inner_home{
+	float: left;
+	width: 5%;
+	clear: right;
+}
+#fund-message{
+	width: 95%;
+padding-top: 5%;
+text-align: center;
+}
