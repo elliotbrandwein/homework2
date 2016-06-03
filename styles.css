@@ -1,37 +1,71 @@
 /*
 these are all for the  home_page, also the #home is going to be used for the other 2 pages
 */
-#orginal_header{
+#orginal_header
+{
 	text-align:  center;
 	width: 95%;
 	float: left;
 }
-#home{
+#home
+{
 	clear: right;
 }
-#inner_home{
+#inner_home
+{
 	float: left;
 	width: 5%;
 	clear: right;
 }
-#fund-message{
+#fund-message
+{
 	width: 95%;
+
 	padding-top: 2%;
+
 	text-align: center;
 }
-#left-pic{
+#left-pic
+{
 	padding-left: 10%;
 	width: 45%;
 	float: left;
 }
-#right-pic{
+#right-pic
+{
 	width: 45%;
 	float: left;
 }
-#donate-button{
+#donate-button
+{
 	padding-left: 30%;
 	float: left;
 }
-.hideable {
-    display: none;
+#tier1-plane
+{
+	
+}
+#tier2-plane
+{
+	
+}
+#tier3-plane
+{
+	
+}
+#tier4-plane
+{
+	
+}
+#in1
+{
+	height:	50%;
+	float: left;
+}
+#out1
+{
+	height:	50%;
+	float: left;
+	padding-top: 0px;
+	padding-bottom: 50px;
 }
