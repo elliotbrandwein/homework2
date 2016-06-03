@@ -1,0 +1,37 @@
+/*
+these are all for the  home_page, also the #home is going to be used for the other 2 pages
+*/
+#orginal_header{
+	text-align:  center;
+	width: 95%;
+	float: left;
+}
+#home{
+	clear: right;
+}
+#inner_home{
+	float: left;
+	width: 5%;
+	clear: right;
+}
+#fund-message{
+	width: 95%;
+	padding-top: 2%;
+	text-align: center;
+}
+#left-pic{
+	padding-left: 10%;
+	width: 45%;
+	float: left;
+}
+#right-pic{
+	width: 45%;
+	float: left;
+}
+#donate-button{
+	padding-left: 30%;
+	float: left;
+}
+.hideable {
+    display: none;
+}	
