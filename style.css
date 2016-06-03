@@ -32,3 +32,6 @@ these are all for the  home_page, also the #home is going to be used for the oth
 	padding-left: 30%;
 	float: left;
 }
+.hideable {
+    display: none;
+}
