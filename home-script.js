@@ -22,11 +22,11 @@ function toggleSlide(direction)
     {
         var makeVisible = next(visibleID, elements.length); 
     }
-    
+
     // show the previous or next slide
     elements[makeVisible].style.display = "block"; 
-    var sn = document.getElementById("slideNumber");
-    sn.innerHTML = (makeVisible + 1);
+    //var sn = document.getElementById("slideNumber");
+    //sn.innerHTML = (makeVisible + 1);
 }
 function getVisible(elements) {
     var visibleID = -1;
@@ -46,4 +46,8 @@ function prev(num, arrayLength) {
 function next(num, arrayLength) {
     if(num == arrayLength-1) return 0;
     else return num+1;
+}
+var myVar = setInterval(timermove, 4000);
+function timermove(){
+    toggleSlide(true);
 }

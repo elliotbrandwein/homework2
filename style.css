@@ -70,10 +70,26 @@ body
 	background-color: red;
 	width:	2em;
 }
+#house-text{
+	float: left;
+}
+#home-1-text{
+
+	float: left;
+	width: 30%;
+}
+#first-carasole{
+	float: left;
+}
 a{
 	text-decoration: none;
 	color: white;
 }
+#carasole{
+	float: left;
+	width: 60%;
+}
+
 
 
 
