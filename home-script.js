@@ -1,20 +1,33 @@
 var elements = document.getElementsByClassName("hideable");
 var vis = getVisible(elements) + 1;
 console.log("working");
-function toggleSlide(direction) {
+function toggleSlide(direction)
+{
     console.log("button pressed");
+
     // gets all the "slides" in our slideshow
-    var elements = document.getElementsByClassName("hideable"); 
+    var elements = document.getElementsByClassName("hideable");
+
     // Find the LI that's currently displayed
     var visibleID = getVisible(elements);
 
-    elements[visibleID].style.display = "none"; // hide the currently visible LI
-    if(!direction) {
-        var makeVisible = prev(visibleID, elements.length); // get the previous slide
-    } else {
-        var makeVisible = next(visibleID, elements.length); // get the next slide
+    // hide the currently visible LI
+    elements[visibleID].style.display = "none";
+
+    // get the previous slide
+    if(!direction)
+    {
+        var makeVisible = prev(visibleID, elements.length); 
     }
-    elements[makeVisible].style.display = "block"; // show the previous or next slide
+
+    // get the next slide
+    else
+    {
+        var makeVisible = next(visibleID, elements.length); 
+    }
+
+    // show the previous or next slide
+    elements[makeVisible].style.display = "block"; 
     var sn = document.getElementById("slideNumber");
     sn.innerHTML = (makeVisible + 1);
 }
