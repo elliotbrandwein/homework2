@@ -57,3 +57,10 @@ these are all for the  home_page, also the #home is going to be used for the oth
 	height: 40px;
 	width: 40px;
 }
+
+.homeButton
+{
+	color: purple;
+	background-color: red;
+	width:	2em;
+}

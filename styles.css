@@ -116,3 +116,24 @@ body
 	height: 40px;
 	width: 40px;
 }
+
+.homeButton
+{
+	width: 3.2em;
+	height: 1.5em;
+	color: white;
+	background-color: grey;
+	margin: 0 0 0 0;
+}
+
+.homeButton h5
+{
+	position: relative;
+	top:	5px;
+	left:	5px;
+}
+a
+{
+	text-decoration: none;
+	color:	white;
+}
