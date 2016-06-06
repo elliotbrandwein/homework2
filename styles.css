@@ -1,6 +1,12 @@
 /*
 these are all for the  home_page, also the #home is going to be used for the other 2 pages
 */
+body
+{
+	background-color: #333333;
+	font-family: Arial;
+	color: white;
+}
 #orginal_header
 {
 	text-align:  center;
@@ -41,31 +47,58 @@ these are all for the  home_page, also the #home is going to be used for the oth
 	padding-left: 30%;
 	float: left;
 }
-#tier1-plane
+.break
 {
-	
+	clear: both;
+	padding: 20px 0 0 20px;
 }
-#tier2-plane
+.plane-container
 {
-	
+	height:	100%;
+	width:	95%;
+	padding: 0 0 25% 0;
+	margin: 0 auto;
+	border-bottom: 10px double white;
 }
-#tier3-plane
+.plane-pics
 {
-	
-}
-#tier4-plane
-{
-	
-}
-#in1
-{
-	height:	50%;
+	width: 50%;
 	float: left;
 }
-#out1
+.text
 {
-	height:	50%;
-	float: left;
-	padding-top: 0px;
-	padding-bottom: 50px;
+	padding: 25% 0 0 0;
+	text-align: center;
+	width: 50%;
+	float: right;
+}
+
+.in
+{
+	height: 70%;
+	width:	110%;
+}
+
+.out
+{
+	height: 70%;
+	width:	110%;
+}
+
+.social-media
+{
+	display: inline;
+	width: 95%;
+	bottom: 0;
+	right: 0;
+}
+#facebook
+{
+	height: 40px;
+	width: 40px;
+}
+#twitter
+{
+	height: 40px;
+	width: 40px;
 }
