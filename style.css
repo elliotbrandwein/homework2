@@ -70,13 +70,11 @@ body
 	background-color: red;
 	width:	2em;
 }
-#house-text{
-	float: left;
-}
-#home-1-text{
+#home-intro-text{
 
 	float: left;
-	width: 30%;
+	width: 35%;
+	clear:right;
 }
 #first-carasole{
 	float: left;
@@ -85,9 +83,15 @@ a{
 	text-decoration: none;
 	color: white;
 }
+#home1-image{
+	width: 140%;
+}
 #carasole{
 	float: left;
 	width: 60%;
+}
+#house-text{
+	float: left;
 }
 
 
