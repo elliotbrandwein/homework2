@@ -1,6 +1,12 @@
 /*
 these are all for the  home_page, also the #home is going to be used for the other 2 pages
 */
+body
+{
+	background-color: #333333;
+	font-family: Arial;
+	color: white;
+}
 #orginal_header{
 	text-align:  center;
 	width: 95%;
