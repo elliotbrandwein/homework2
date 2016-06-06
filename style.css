@@ -63,7 +63,13 @@ body
 	height: 40px;
 	width: 40px;
 }
+#asd{}
 a{
 	text-decoration: none;
 	color: white;
 }
+
+#carasol{
+	display: none;
+}
+

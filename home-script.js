@@ -1,10 +1,7 @@
 var elements = document.getElementsByClassName("hideable");
 var vis = getVisible(elements) + 1;
-console.log("working");
 function toggleSlide(direction)
 {
-    console.log("button pressed");
-
     // gets all the "slides" in our slideshow
     var elements = document.getElementsByClassName("hideable");
 
@@ -25,7 +22,7 @@ function toggleSlide(direction)
     {
         var makeVisible = next(visibleID, elements.length); 
     }
-
+    
     // show the previous or next slide
     elements[makeVisible].style.display = "block"; 
     var sn = document.getElementById("slideNumber");
