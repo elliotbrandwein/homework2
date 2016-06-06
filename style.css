@@ -9,7 +9,7 @@ body
 }
 #orginal_header{
 	text-align:  center;
-	width: 95%;
+	width: 90%;
 	float: left;
 }
 #home{
@@ -41,3 +41,25 @@ body
 .hideable {
     display: none;
 }	
+.social-media
+{
+	display: inline;
+	width: 95%;
+	bottom: 0;
+	right: 0;
+}
+#facebook
+{
+	height: 40px;
+	width: 40px;
+}
+#twitter
+{
+	height: 40px;
+	width: 40px;
+}
+#gofundme
+{
+	height: 40px;
+	width: 40px;
+}

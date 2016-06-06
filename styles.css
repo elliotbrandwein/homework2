@@ -50,39 +50,48 @@ body
 .break
 {
 	clear: both;
-	padding: 20px 0 0 20px;
+	padding: 10px 0 10 0;
+	position:	relative;
+	bottom:	10px;
+	border-bottom: 7px double white;
 }
 .plane-container
 {
 	height:	100%;
 	width:	95%;
-	padding: 0 0 25% 0;
+	padding: 0 0 0 0;
 	margin: 0 auto;
-	border-bottom: 10px double white;
+	/*border-bottom: 10px double white;*/
 }
 .plane-pics
 {
-	width: 50%;
+	width: 45%;
 	float: left;
 }
 .text
 {
-	padding: 25% 0 0 0;
+	padding: 23% 0 0 0;
 	text-align: center;
-	width: 50%;
+	width: 45%;
 	float: right;
 }
 
 .in
 {
-	height: 70%;
-	width:	110%;
+	height:	23em;
+	width:	43em;
+	/*height:	450px;
+	width:	700px;
+	/*height: 70%;
+	width:	110%;*/
 }
 
 .out
 {
-	height: 70%;
-	width:	110%;
+	height:	23em;
+	width:	43em;
+	/*height: 70%;
+	width:	110%;*/
 }
 
 .social-media
@@ -98,6 +107,11 @@ body
 	width: 40px;
 }
 #twitter
+{
+	height: 40px;
+	width: 40px;
+}
+#gofundme
 {
 	height: 40px;
 	width: 40px;
