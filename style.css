@@ -35,8 +35,13 @@ body
 	float: left;
 }
 #donate-button{
-	padding-left: 30%;
+	padding-left: 35%;
 	float: left;
+}
+#donate-button img
+{
+	width: 45%;
+	margin: 0 auto;
 }
 .hideable {
     display: none;
@@ -69,6 +74,7 @@ body
 	color: purple;
 	background-color: red;
 	width:	2em;
+	padding-right: 150px;
 }
 #home-intro-text{
 
@@ -92,5 +98,19 @@ a{
 }
 
 
-
-
+.break
+{
+	clear: both;
+	padding: 10px 0 10px 0;
+	position:	relative;
+	bottom:	10px;
+	border-bottom: 7px double white;
+}
+.break-no-border
+{
+	clear: both;
+	padding: 10px 0 10px 0;
+	position:	relative;
+	top: 20px;
+	
+}
